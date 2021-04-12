@@ -1,5 +1,5 @@
-#TDA 
-implementacion de los tipos de dato abractos:
+#TDA   
+implementacion en lenguaje C de los tipos de dato abractos:
 - Pila
 - Cola
 - Arbol
