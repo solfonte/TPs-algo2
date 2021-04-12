@@ -1,1 +1,8 @@
-#Trabajos practicos de algoritmos y programacion 2
+#TDA 
+implementacion de los tipos de dato abractos:
+- Pila
+- Cola
+- Arbol
+- Lista
+- Hash
+- trabajos practicos adicionales
