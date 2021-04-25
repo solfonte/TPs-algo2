@@ -1,0 +1,41 @@
+#ifndef __BIBLIOTECA_PRUEBAS_COLA__
+#define __BIBLIOTECA_PRUEBAS_COLA__
+
+typedef struct registro{
+  int numero;
+  char string;
+}registro_t;
+
+int DadaUnaColaNull_SeIntentaDesencolar_DevuelveMenosUno();
+
+int DadaUnaColaNull_SeIntentaEncolar_DevuelveMenosUno();
+
+int DadaUnaColaNull_SePreguntaSiEstaVacia_DevuelveTrue();
+
+int DadaUnaColaNull_SeDestruye_NoOcurreNingunError();
+
+int DadaUnaColaNull_SePideLaCantidadDeElementos_DevuelveCero();
+
+int DadaUnaColaVacia_SeIntentaDesencolar_DevuelveMenosUno();
+
+int DadaUnaColaVacia_SePreguntaSiEstaVacia_DevuelveTrue();
+
+int DadaUnaColaConUnElemento_SePreguntaSiEstaVacia_DevuelveFalse();
+
+int DadaUnaColaConDiezElementos_SeDesencolanCincoElementos_LaCantidadDeElementosEnLaColaDevuelveCinco();
+
+int DadaUnaColaConDiezElementos_SeDesencolan_LosDevuelveEnOrdenDeFIFO();
+
+int DadaUnaColaConUnElemento_SeDesencolaElElementoYSePreguntaSiEstaVacia_DevuelveTrue();
+
+int DadaUnaColaInicializada_SeDestruye_NoOcurreNingunError();
+
+int DadaUnaColaIncializada_SeEncolaUnElementoNull_DevuelveCero();
+
+int DadaUnaColaInicializada_SeEncolanDiezElementos_LaCantidadDevuelveDiez();
+
+int DadaUnaColaConDiezElementos_SeVacia_LaCantidadDeElementosDevuelveCero();
+
+int DadaUnaColaInicializada_SeEncolanTresElementosDeDistintosTiposDeDatos_LaCantidadDeElementosEsTres();
+
+#endif /*__BIBLIOTECA_PRUEBAS_COLA__*/
